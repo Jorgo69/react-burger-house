@@ -134,6 +134,9 @@ module.exports = {
     },
     caretColor: ({ theme }) => theme('colors'),
     colors: ({ colors }) => ({
+      primary : `#ffc045`,
+      secondary : '#3d2514',
+      danger : '#bf2222',
       inherit: colors.inherit,
       current: colors.current,
       transparent: colors.transparent,
@@ -303,6 +306,9 @@ module.exports = {
       DEFAULT: '1',
     },
     fontFamily: {
+      secondary: [
+        ' "Alfa Slab One" '
+      ],
       sans: [
         'ui-sans-serif',
         'system-ui',
