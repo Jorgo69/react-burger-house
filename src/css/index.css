@@ -6,10 +6,16 @@
 body{
     font-family: 'Roboto';
 }
+p{
+    @apply text-secondary;
+}
 .animate {
     -webkit-transition: all .5s ease-in-out;
     -moz-transition:    all .5s ease-in-out;
     -o-transition:      all .5s ease-in-out;
     -ms-transition:     all .5s ease-in-out;
     transition:         all .5s ease-in-out;
+}
+.shadowTitleSecondary{
+    text-shadow: 3px 3px #fee7ba;
 }

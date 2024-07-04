@@ -7,23 +7,40 @@ import Button from '../../elements/Button'
 
 export default function HeroTop() {
   return (
-    <div className='bg-primary w-full h-screen'>
-      <div className='bg-repeat w-full h-full' style={{ backgroundImage: `url(${Illustration})`}}>
+    <div className='bg-primary w-full'>
+      <div className='bg-repeat w-full h-full pb-20' style={{ backgroundImage: `url(${Illustration})`}}>
         <Container>
           <Header />
 
+
           <div className='relative w-full mt-28 '> {/* la relative et Z en Css z-index permet de changer la position ici placer l'element au dessus */}
           <img src={Product} className='absolute -top-64 right-0 w-6/12 z-0'  alt='Menu Hamburger Burger a la sauce accompagner de Cola' />
+          <div className='rounded-full absolute right-80 top-40  bg-danger w-40 h-40 p-3'>
+            <div className='rounded-full w-full h-full text-white border-2 border-dashed border-white flex items-center justify-center'>
+            <div className='text-center'>
+              <span className='block font-extrabold'>
+                <span className='text-5xl'>5</span>.49E
+              </span>
+              <span className='tracking-widest uppercase'>seulement</span>
+            </div>
+            </div>
+          </div>
             <div className='relative text-secondary text-xl w-2/3 uppercase z-10'>
               <h1 className='mb-4 font-semibold'>C'est le moment de gouter au bon gout des Hamburgers.</h1>
               <h2 className='font-secondary'>
-                <span className='text-8xl block'>Burger</span> 
+                <span className='text-8xl block shadowTitleSecondary'>Burger</span> 
                 <span className='text-6xl'>House </span> 
                 <span className='text-4xl'>Click<span className='text-danger'>&amp;</span>Collect</span>
                 </h2>
             </div>
           </div>
+          {/* <Button className="mt-5" color="secondary" theme="small">
+            Creer mon compte
+          </Button>
           <Button className="mt-5">
+            Creer mon compte
+          </Button> */}
+          <Button className="mt-5" color="secondary" theme="big">
             Creer mon compte
           </Button>
         </Container>
