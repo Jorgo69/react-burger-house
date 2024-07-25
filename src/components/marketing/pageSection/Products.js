@@ -14,7 +14,7 @@ export default function Products() {
         <HeadingTitles>
             Toujours des délices burgers
         </HeadingTitles>
-        <Heading theme='secondary'>
+        <Heading theme='secondary' alignement='center' className='my-5'>
             Choisissez et savourez
         </Heading>
         <p className='text-center'>

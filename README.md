@@ -11,3 +11,12 @@ git push -u origin main
 git remote add origin https://github.com/Jorgo69/react-burger-house.git
 git branch -M main
 git push -u origin main
+
+## Dependance Caroussel
+[Alice Caroussel](https://www.npmjs.com/package/react-alice-carousel)
+
+## Dependance from
+[Form](https://www.npmjs.com/package/@tailwindcss/forms)
+
+## Heroicon
+[dependance](https://heroicons.com/)

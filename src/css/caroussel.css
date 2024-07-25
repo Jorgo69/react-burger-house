@@ -60,9 +60,9 @@
     white-space: normal;
     line-height: 0;
   }
-  .alice-carousel__stage-item * {
+  /* .alice-carousel__stage-item * {
     line-height: initial;
-  }
+  } */
   .alice-carousel__stage-item.__hidden {
     opacity: 0;
     overflow: hidden;
@@ -166,7 +166,9 @@
   }
   
   .alice-carousel__dots {
-    /* margin: 30px 3px 5px; */
+    position: absolute;
+    bottom: 50px;
+    left: 60px;
     padding: 0;
     list-style: none;
     text-align: center;
