@@ -14,14 +14,14 @@ export default function Products() {
         <HeadingTitles>
             Toujours des délices burgers
         </HeadingTitles>
-        <Heading theme='secondary' alignement='center' className='my-5'>
+        <Heading theme='secondary' alignement='center' className='my-5 text-center'>
             Choisissez et savourez
         </Heading>
         <p className='text-center'>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ipsum perspiciatis eos at iste cum dolorum recusandae error dolorem ipsa officia earum nulla, animi est esse fuga, quia labore id.
         </p>
-        <div className='grid grid-cols-3 gap-x-1 my-10'>
-          <div className='w-full h-full mx-5 pb-5'>
+        <div className='grid lg:grid-cols-3 gap-x-1 my-10'>
+          <div className='w-full h-full md:w-2/3 lg:w-full mx-auto pb-5'>
             <div className='relative  w-full h-72'>
               <img src={product2} alt='' className='bg-primary absolute top-0 left-0 w-full h-full object-cover z-0' />
             </div>
@@ -30,13 +30,13 @@ export default function Products() {
               <p className='text-center'>
                 lorem ipsum dolor is simply text for designer and developer.
               </p>
-              <Button color='danger' className='font-secondary font-semibold'>commander</Button>
+              <Button color='danger' className='font-secondary font-semibold mb-10 lg:mb-0'>commander</Button>
 
             </div>
 
           </div>
 
-          <div className='w-full h-full mx-5 pb-5'>
+          <div className='w-full h-full md:w-2/3 lg:w-full mx-auto pb-5'>
             <div className='relative  w-full h-72'>
               <img src={product3} alt='' className='bg-primary absolute top-0 left-0 w-full h-full object-cover z-0' />
             </div>
@@ -45,13 +45,13 @@ export default function Products() {
               <p className='text-center'>
                 lorem ipsum dolor is simply text for designer and developer.
               </p>
-              <Button color='danger' className='font-secondary font-semibold'>commander</Button>
+              <Button color='danger' className='font-secondary font-semibold mb-10 lg:mb-0'>commander</Button>
 
             </div>
 
           </div>
 
-          <div className='w-full h-full mx-5 pb-5'>
+          <div className='w-full h-full md:w-2/3 lg:w-full mx-auto pb-5'>
             <div className='relative  w-full h-72'>
               <img src={product1} alt='' className='bg-primary absolute top-0 left-0 w-full h-full object-cover z-0' />
             </div>
@@ -60,7 +60,7 @@ export default function Products() {
               <p className='text-center'>
                 lorem ipsum dolor is simply text for designer and developer.
               </p>
-              <Button color='danger' className='font-secondary font-semibold'>commander</Button>
+              <Button color='danger' className='font-secondary font-semibold mb-10 lg:mb-0'>commander</Button>
 
             </div>
 

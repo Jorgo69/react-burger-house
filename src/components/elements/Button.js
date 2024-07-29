@@ -39,7 +39,7 @@ export default function Button({children, className, color, theme}) {
       case 'big' :
         return (
           <div>
-            <button className={`${className} ${background} px-8 py-4 upppercase shadow-xl text-white text-base font-medium animate`}>
+            <button className={`${className} ${background} px-4 md:px-8 py-4 upppercase shadow-xl text-sm md:text-base text-white font-medium animate`}>
               {children}
             </button>
           </div>
@@ -48,7 +48,7 @@ export default function Button({children, className, color, theme}) {
       default :
         return (
           <div>
-            <button className={`${className} ${background} px-4 py-3 upppercase shadow-xl text-white text-sm font-medium animate`}>
+            <button className={`${className} ${background} px-4 py-3 upppercase shadow-xl text-xs text-white md:text-sm font-medium animate`}>
               {children}
             </button>
           </div>

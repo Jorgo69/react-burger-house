@@ -9,11 +9,11 @@ export default function Booking() {
   return (
     <Container>
       <div className='relative mb-20'>
-        <img src={Burger} alt='Un Hamburger' className='absolute -top-20 -left-36 z-10' />
-        <img src={Sauce} alt='une sauce pimente' className='absolute bottom-0 left-0' />
-        <img src={Assiette} alt='Une assiete' className='absolute -bottom-52 -right-96' />
+        <img src={Burger} alt='Un Hamburger' className='hidden md:block absolute -top-20 -left-36 z-10' />
+        <img src={Sauce} alt='une sauce pimente' className='hidden lg:block absolute bottom-0 left-0' />
+        <img src={Assiette} alt='Une assiete' className='hidden lg:block absolute -bottom-52 -right-96' />
         {/* <div className='max-w-4xl mx-auto'></div> */}
-        <div className='max-w-3xl mx-auto px-10 py-20'>
+        <div className='max-w-3xl mx-auto sm:px-10 py-20'>
         <Heading variant='h3' alignement='center'>
             Reservation
         </Heading>
