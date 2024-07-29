@@ -20,3 +20,13 @@ git push -u origin main
 
 ## Heroicon
 [dependance](https://heroicons.com/)
+
+Pour la premiere fois si VS Code refuse l'execution du script
+Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force dans powerShell resoudra le problem
+
+
+[Reponse de Alexis conseiller Independant](https://answers.microsoft.com/fr-fr/windows/forum/all/lever-la-restriction-des-scripts-sous-win-10/31ea5b49-2d37-4ef2-9505-0bc37c436d05)
+
+
+Tuto dispo sur la playlist Youtube de 
+[Remonte Monkey](https://youtube.com/playlist?list=PLtKaauZVThjDU0MtbTq29AWcCQpslv1PV&si=iCaeb-719sPD0FG5)
